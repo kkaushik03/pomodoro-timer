@@ -1,0 +1,66 @@
+.handle{
+    background-color: red;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+}
+.slider {
+    background-color: var(--red);
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+.thumb {
+    background-color: var(--red);
+
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px; /* Center the thumb vertically */
+  }
+  
+  .track {
+    background: #e3e3e3; /* Background color for the track */
+    border-radius: 20px;
+    height: 100%;
+    position: relative;
+  }
+  
+  .slider-break {
+    background-color: var(--green);
+    height: 40px;
+    border: 2px solid var(--green);
+    border-radius: 20px;
+    position: relative;
+  }
+  
+.thumb-break {
+    background-color: var(--green);
+
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px; /* Center the thumb vertically */
+  }
+  
+  .track-break {
+    background: #e3e3e3; /* Background color for the track */
+    border-radius: 20px;
+    height: 100%;
+    position: relative;
+  }
+  
+
+
+  label{
+    display:block;
+    margin-bottom:20px;
+    margin-top: 30px;
+    text-transform: capitalize;
+  }
