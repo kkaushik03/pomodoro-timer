@@ -9,4 +9,4 @@ function PauseButton(props) {
     );
 }
 
-export default PauseButton
+export default PauseButton; 
